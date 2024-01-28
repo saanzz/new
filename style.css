@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,33 +10,33 @@
     src: url(./font/Kodchasan-Regular.woff);
 }
 
-body{
+body {
     width: 100%;
     font-family: kodchasan;
 }
 
 /* ----------------- Navbar Code Start ---------------*/
 
-.navbar{
+.navbar {
     padding-top: 10px !important;
 }
 
-ul li .nav-link{
+ul li .nav-link {
     padding: 5px 30px !important;
     background-color: lightgray;
     border-radius: 16px;
     margin-left: 10px;
     font-family: kodchasan;
-    font-weight: 600;     
+    font-weight: 600;
 }
 
-.navbar-brand{
+.navbar-brand {
     background-color: #d5d5d5;
     padding: 5px 15px !important;
     border-radius: 12px;
 }
 
-.navbar-nav{
+.navbar-nav {
     background-color: white;
     padding: 10px;
     margin-left: 0;
@@ -50,7 +50,7 @@ ul li .nav-link{
 
 /* ----------------- Home Page Code Start ---------------*/
 
-.home-container{
+.home-container {
     max-width: 100% !important;
     margin-top: -72px;
 }
@@ -72,24 +72,25 @@ ul li .nav-link{
     width: 60%;
 }
 
-video{
+video {
     border-radius: 30px;
     max-width: 100%;
 }
 
-.hero-section .projects{
+.hero-section .projects {
     position: absolute;
     bottom: 0;
     left: 35%;
     width: auto;
     border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.5); /* Set your semi-transparent background color */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Set your semi-transparent background color */
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 5px 20px;
 }
 
-.projects-data{
+.projects-data {
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
@@ -97,20 +98,20 @@ video{
     text-align: center;
 }
 
-.projects-data h2{
+.projects-data h2 {
     color: white;
     font-weight: 500;
     font-family: kodchasan;
     font-size: 22px;
 }
 
-.projects-data p{
+.projects-data p {
     font-size: 14px;
     color: white;
     font-family: kodchasan;
 }
 
-.hero-section .left-content{
+.hero-section .left-content {
     position: absolute;
     bottom: -50px;
     left: 5px;
@@ -120,13 +121,13 @@ video{
     padding: 20px 20px 20px 80px;
 }
 
-.left-content p{
+.left-content p {
     width: 220px;
     font-family: kodchasan;
     font-size: 18px;
 }
 
-.hero-section .right-content{
+.hero-section .right-content {
     position: absolute;
     bottom: 0px;
     right: 5px;
@@ -136,7 +137,7 @@ video{
     padding: 5px 80px 80px 5px;
 }
 
-button {
+.button {
     font-weight: 700;
     font-family: kodchasan;
     transition: all .2s;
@@ -147,23 +148,26 @@ button {
     display: flex;
     align-items: center;
     font-size: 15px;
-    }
+    color: #000;
+    text-decoration: none;
+}
 
-button > svg {
+.button>svg {
     width: 34px;
     margin-left: 10px;
     transition: transform .3s ease-in-out;
+    transform: rotate(-45deg);
 }
 
-button:hover svg {
+.button:hover svg {
     transform: translateX(5px);
 }
 
-button:active {
+.button:active {
     transform: scale(0.95);
 }
 
-.brand-logos{
+.brand-logos {
     margin-top: 240px;
     background-color: #F3F3F3;
     padding: 10px 0;
@@ -171,38 +175,39 @@ button:active {
     justify-content: center;
 }
 
-.brand-logos .brand-logo{
+.brand-logos .brand-logo {
     display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
 }
 
-.brand-logo img{
+.brand-logo img {
     height: 160px;
     width: 100%;
 }
 
-.our-service{
+.our-service {
     padding: 50px 20px;
 }
 
-.our-service h2{
+.our-service h2 {
     text-align: center;
 }
 
-.our-service p{
+.our-service p {
     width: 90%;
     text-align: justify;
 }
 
-.Services{
+.Services {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 50px;
 }
 
-.Services .our-services{
+.Services .our-services {
     text-align: center;
 }
 
@@ -212,41 +217,41 @@ button:active {
 .e-card {
     margin: 30px auto;
     background: transparent;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
     border-radius: 16px;
     overflow: hidden;
-} 
+}
 
 .e-card1 {
-    margin: 30px 0px 10px 80px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-google-deepmind-18069238.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
     border-radius: 16px;
-} 
+}
 
 .e-card2 {
-    margin: 30px 0px 10px 40px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-google-deepmind-18069081.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
     border-radius: 16px;
     overflow: hidden;
     opacity: 2;
-} 
+}
 
 .e-card3 {
     margin: 30px 0px 10px 0;
@@ -254,7 +259,7 @@ button:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -264,12 +269,12 @@ button:active {
 }
 
 .e-card4 {
-    margin: 30px 0px 10px -40px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-google-deepmind-17483906.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -279,12 +284,12 @@ button:active {
 }
 
 .e-card5 {
-    margin: 30px 0px 10px 80px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-mo-eid-9454915.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -294,12 +299,12 @@ button:active {
 }
 
 .e-card6 {
-    margin: 30px 0px 10px 40px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-rodion-kutsaiev-7897470.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -314,7 +319,7 @@ button:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -324,12 +329,12 @@ button:active {
 }
 
 .e-card8 {
-    margin: 30px 0px 10px -40px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-rodion-kutsaiev-7911758.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -339,12 +344,12 @@ button:active {
 }
 
 .e-card9 {
-    margin: 30px 0px 10px 80px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-google-deepmind-17485708.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -354,12 +359,12 @@ button:active {
 }
 
 .e-card10 {
-    margin: 30px 0px 10px 40px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-mo-eid-11643390.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -374,7 +379,7 @@ button:active {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -384,12 +389,12 @@ button:active {
 }
 
 .e-card12 {
-    margin: 30px 0px 10px -40px;
+    margin: 30px 0px 10px 0px;
     background-image: url(./assets/pexels-google-deepmind-18068490.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     position: relative;
     width: 265px;
     height: 370px;
@@ -403,7 +408,7 @@ button:active {
     margin-top: -1em;
     padding-bottom: 1em;
 }
-  
+
 .infotop {
     /*text-align: center;*/
     font-size: 20px;
@@ -414,7 +419,7 @@ button:active {
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
-  
+
 .name {
     font-size: 22px;
     font-weight: 500;
@@ -422,16 +427,17 @@ button:active {
     font-family: kodchasan;
     padding: 0 10px;
 }
-  
-.wave:nth-child(2),.wave:nth-child(3) {
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
     top: 210px;
 }
-  
+
 .playing .wave {
     border-radius: 40%;
     animation: wave 3000ms infinite linear;
 }
-  
+
 .wave {
     position: absolute;
     width: 540px;
@@ -441,32 +447,32 @@ button:active {
     top: 0;
     margin-left: -50%;
     margin-top: -70%;
-    background: linear-gradient(744deg,#af40ff,#5b42f3 60%,#00ddeb);
+    background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);
 }
-  
+
 .playing .wave:nth-child(2) {
     animation-duration: 4000ms;
 }
-  
+
 .wave:nth-child(2) {
     animation-duration: 50s;
 }
-  
+
 .playing .wave:nth-child(3) {
     animation-duration: 5000ms;
 }
-  
+
 .wave:nth-child(3) {
     animation-duration: 45s;
 }
-  
+
 @keyframes wave {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -477,7 +483,8 @@ button:active {
     padding: 5px 130px 5px 20px;
     border-radius: 16px !important;
     border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.274); /* Set your semi-transparent background color */
+    background-color: rgba(255, 255, 255, 0.274);
+    /* Set your semi-transparent background color */
     backdrop-filter: blur(40px);
     font-size: 15px;
     margin-top: 55px;
@@ -492,7 +499,7 @@ button:active {
 
 /*--------------------- Card Code ---------------*/
 
-.why-choose{
+.why-choose {
     margin: 20px 0;
     width: 100%;
     background-image: url(./assets/Rectangle\ 143.png);
@@ -505,7 +512,7 @@ button:active {
     align-items: center;
 }
 
-.why-choose h2{
+.why-choose h2 {
     font-size: 22px;
     font-family: kodchasan;
     font-weight: 600;
@@ -516,7 +523,7 @@ button:active {
     padding-left: 30px;
 }
 
-.why-choose p{
+.why-choose p {
     color: white;
     font-family: kodchasan;
     font-size: 16px;
@@ -525,11 +532,11 @@ button:active {
     width: 90%;
 }
 
-.why-choose-data{
+.why-choose-data {
     margin-top: 50px;
 }
 
-.why-choose-data1{
+.why-choose-data1 {
     width: 300px;
     height: 400px;
     background-color: #FFF173;
@@ -541,20 +548,20 @@ button:active {
     margin-left: 30px;
 }
 
-.why-choose-data1 h3{
+.why-choose-data1 h3 {
     color: black;
     font-weight: 600;
     font-family: kodchasan;
     margin-bottom: 20px;
 }
 
-.why-choose-data1 p{
+.why-choose-data1 p {
     color: black;
     width: auto;
     font-family: kodchasan;
 }
 
-.why-choose-data2{
+.why-choose-data2 {
     width: 280px;
     height: 550px;
     background-color: #D2FF73;
@@ -565,20 +572,20 @@ button:active {
     justify-content: flex-end;
 }
 
-.why-choose-data2 h3{
+.why-choose-data2 h3 {
     color: black;
     font-weight: 600;
     font-family: kodchasan;
     margin-bottom: 20px;
 }
 
-.why-choose-data2 p{
+.why-choose-data2 p {
     color: black;
     width: auto;
     font-family: kodchasan;
 }
 
-.why-choose-data3{
+.why-choose-data3 {
     width: 450px;
     height: 250px;
     background-color: #73EEFF;
@@ -590,21 +597,21 @@ button:active {
     margin-left: -50px;
 }
 
-.why-choose-data3 h3{
+.why-choose-data3 h3 {
     color: black;
     font-weight: 600;
     font-family: kodchasan;
     margin-bottom: 20px;
 }
 
-.why-choose-data3 p{
+.why-choose-data3 p {
     color: black;
     width: auto;
     font-family: kodchasan;
     width: 80%;
 }
 
-.why-choose-data4{
+.why-choose-data4 {
     width: 320px;
     height: 280px;
     background-color: #738AFF;
@@ -617,32 +624,32 @@ button:active {
     margin-left: -50px;
 }
 
-.why-choose-data4 h3{
+.why-choose-data4 h3 {
     color: black;
     font-weight: 600;
     font-family: kodchasan;
     margin-bottom: 20px;
 }
 
-.why-choose-data4 p{
+.why-choose-data4 p {
     color: black;
     width: auto;
     font-family: kodchasan;
 }
 
-.our-approach{
+.our-approach {
     width: 100%;
     padding: 50px 50px;
 }
 
-.our-approach h3{
+.our-approach h3 {
     color: black;
     font-family: kodchasan;
     font-weight: 600;
     font-size: 28px;
 }
 
-.circle-shape{
+.circle-shape {
     position: absolute;
     margin-top: -100px;
     margin-left: 340px;
@@ -655,7 +662,7 @@ button:active {
     z-index: 1;
 }
 
-.our-approach .square-img{
+.our-approach .square-img {
     position: relative;
     float: right;
     height: 300px;
@@ -663,19 +670,19 @@ button:active {
     margin-top: -150px;
 }
 
-.our-approach .our-approach-data{
+.our-approach .our-approach-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.our-approach-data1{
-    padding: 10px 0; 
+.our-approach-data1 {
+    padding: 10px 0;
     margin-left: 60px;
 }
 
-.our-approach-data1 h4{
+.our-approach-data1 h4 {
     font-size: 16px;
     width: 280px;
     padding: 10px 25px;
@@ -684,14 +691,14 @@ button:active {
     font-weight: 700;
 }
 
-.our-approach-data1 svg{
+.our-approach-data1 svg {
     margin-top: -5px;
     float: right;
     transform: rotate(-45deg);
     transition: transform .3s ease-in-out;
 }
 
-.our-approach-data1 p{
+.our-approach-data1 p {
     width: 85%;
     text-align: justify;
     font-size: 14px;
@@ -702,23 +709,23 @@ button:active {
     transform: translateX(5px);
 }
 
-.our-featured-work{
+.our-featured-work {
     width: 100%;
     padding: 20px 40px;
 }
 
-.featured-work-data{
+.featured-work-data {
     padding-top: 50px;
 }
 
-.featured-work-data h3{
+.featured-work-data h3 {
     font-size: 28px;
     font-family: kodchasan;
     color: black;
     font-weight: 600;
 }
 
-.featured-work-data p{
+.featured-work-data p {
     text-align: right;
     width: 45%;
     font-size: 18px;
@@ -726,7 +733,7 @@ button:active {
     color: black;
 }
 
-.featured-data{
+.featured-data {
     margin: 10px 0;
     padding: 50px 20px 10px 20px;
     width: auto;
@@ -735,21 +742,21 @@ button:active {
     background-color: #F2F2F2;
 }
 
-.featured-data h3{
+.featured-data h3 {
     font-size: 20px;
 }
 
-.featured-data p{
+.featured-data p {
     margin-top: 10px;
     font-size: 14px;
     width: auto;
-} 
+}
 
-.choose-us{
+.choose-us {
     padding: 50px 40px;
 }
 
-.choose-us h2{
+.choose-us h2 {
     color: black;
     font-family: kodchasan;
     font-weight: 600;
@@ -757,14 +764,16 @@ button:active {
     padding-left: 20px;
 }
 
-.choose-us p{
+.choose-us p {
     padding-left: 80px;
     width: 90%;
     font-size: 18px;
     text-align: justify;
 }
 
-.choose-us button {
+.btn-position {}
+
+.choose-us .button {
     float: right;
     font-weight: 700;
     font-family: kodchasan;
@@ -780,18 +789,18 @@ button:active {
     margin-right: 10px;
 }
 
-.choose-us button > svg {
+.choose-us .button>svg {
     width: 34px;
     transition: transform .3s ease-in-out;
     transform: rotate(-45deg);
 }
 
-.choose-us button:hover svg {
+.choose-us .button:hover svg {
     transform: translateX(5px);
 }
 
-.choose-us .year-title{
-    padding-left: 10px; 
+.choose-us .year-title {
+    padding-left: 10px;
     width: 50%;
     padding-top: 20px;
     font-family: kodchasan;
@@ -799,7 +808,7 @@ button:active {
     font-weight: 600;
 }
 
-.choose-us-bg{
+.choose-us-bg {
     margin-top: -100px;
     background-image: url(/assets/Rectangle\ 144.png);
     background-repeat: no-repeat;
@@ -807,7 +816,7 @@ button:active {
     background-size: contain;
 }
 
-.square-border{
+.square-border {
     position: absolute;
     height: 350px;
     width: 200px;
@@ -817,25 +826,25 @@ button:active {
     margin-left: 140px;
 }
 
-.report-img2{
+.report-img2 {
     position: absolute;
     margin-top: 120px;
     z-index: 2;
 }
 
-.testimonials-section{
+.testimonials-section {
     width: 100%;
     padding: 40px 40px;
 }
 
-.testimonials-section h3{
+.testimonials-section h3 {
     font-family: kodchasan;
     font-family: 26px;
     font-weight: 600;
 }
 
-.testimonials{
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+.testimonials {
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     background-color: #FBFBFB;
     width: auto;
     border-radius: 14px;
@@ -843,8 +852,8 @@ button:active {
     margin-top: 50px;
 }
 
-.testimonials2{
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+.testimonials2 {
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
     background-color: #FBFBFB;
     width: auto;
     border-radius: 14px;
@@ -864,26 +873,27 @@ button:active {
 
 .star-rating label {
     font-size: 2em;
-    color: #f2b01e; /* Set your star color */
+    color: #f2b01e;
+    /* Set your star color */
     cursor: pointer;
 }
 
-.testimonials h5{
+.testimonials h5 {
     font-family: kodchasan;
     text-align: right;
     font-size: 16px;
 }
 
-.testimonials2 h5{
+.testimonials2 h5 {
     font-family: kodchasan;
     text-align: right;
     font-size: 16px;
 }
 
-.contact-section{
+.contact-section {
     width: 100%;
     padding: 50px 40px;
-    background-image: url(/assets/Rectangle\ 147.png);
+    background-image: url(./assets/Rectangle\ 219.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -893,7 +903,7 @@ button:active {
     align-items: center;
 }
 
-.contact-section h2{
+.contact-section h2 {
     margin-top: 150px;
     font-size: 36px;
     font-family: kodchasan;
@@ -905,9 +915,9 @@ button:active {
 /*-------------------- Form Code ----------------*/
 .group {
     position: relative;
-  }
-  
-  .form {
+}
+
+.form {
     width: 400px;
     margin-top: 50px;
     display: -webkit-box;
@@ -928,9 +938,9 @@ button:active {
     background-color: rgba(255, 255, 255, 0.521);
     border-radius: 20px;
     position: relative;
-  }
-  
-  .main-input {
+}
+
+.main-input {
     font-size: 16px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -939,14 +949,14 @@ button:active {
     border-bottom: 1px solid #6c6c6c;
     background: transparent;
     color: #ffffff;
-  }
-  
-  .main-input:focus {
+}
+
+.main-input:focus {
     outline: none;
     border-bottom-color: #42ff1c;
-  }
-  
-  .lebal-email {
+}
+
+.lebal-email {
     color: #000000;
     font-size: 18px;
     font-weight: normal;
@@ -957,9 +967,9 @@ button:active {
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
-  }
+}
 
-  .lebal-name {
+.lebal-name {
     color: #000000;
     font-size: 18px;
     font-weight: normal;
@@ -970,9 +980,9 @@ button:active {
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
-  }
+}
 
-  .lebal-mobile {
+.lebal-mobile {
     color: #000000;
     font-size: 18px;
     font-weight: normal;
@@ -983,53 +993,53 @@ button:active {
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
-  }
-
-.main-input:focus ~ .lebal-email,
-.main-input:valid ~ .lebal-email {
-  top: -5px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #6f42c1;
 }
 
-.main-input:focus ~ .lebal-name,
-.main-input:valid ~ .lebal-name {
-  top: -5px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #6f42c1;
+.main-input:focus~.lebal-email,
+.main-input:valid~.lebal-email {
+    top: -5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6f42c1;
 }
 
-.main-input:focus ~ .lebal-mobile,
-.main-input:valid ~ .lebal-mobile {
-  top: -5px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #6f42c1;
+.main-input:focus~.lebal-name,
+.main-input:valid~.lebal-name {
+    top: -5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6f42c1;
 }
-  
-  .submit {
+
+.main-input:focus~.lebal-mobile,
+.main-input:valid~.lebal-mobile {
+    top: -5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6f42c1;
+}
+
+.submit {
     margin-top: 1.2rem;
     padding: 10px 20px;
     border-radius: 10px;
-  }
+}
 
 /*-------------------- Form Code ---------------*/
 
 
 @media (max-width: 499px) {
-    body{
+    body {
         width: 100%;
     }
 
-    .navbar{
+    .navbar {
         position: absolute !important;
         z-index: 1;
         right: 0;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         background-color: white !important;
     }
 
@@ -1048,35 +1058,35 @@ button:active {
         height: auto;
     }
 
-    video{
+    video {
         width: 100%;
     }
 
-    .hero-section h1{
+    .hero-section h1 {
         font-size: 24px;
         top: 8%;
     }
 
-    .hero-section .left-content{
+    .hero-section .left-content {
         top: 46%;
         /*bottom: 75px;*/
         padding: 20px;
         background: transparent;
     }
 
-    .left-content p{
+    .left-content p {
         width: 100%;
         font-size: 22px;
     }
 
-    .hero-section .right-content{
+    .hero-section .right-content {
         padding: 10px;
         right: 25%;
         bottom: 22%;
         background: transparent;
     }
 
-    .hero-section .projects{
+    .hero-section .projects {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1084,38 +1094,38 @@ button:active {
         bottom: 52%;
     }
 
-    .projects-data{
+    .projects-data {
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    button{
+    .button {
         font-size: 18px !important;
     }
 
-    button > svg{
+    .button>svg {
         transform: rotate(-45deg);
     }
 
-    .brand-logos{
+    .brand-logos {
         margin-top: 340px;
     }
 
-    .brand-logos .brand-logo{
+    .brand-logos .brand-logo {
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    .brand-logo img{
+    .brand-logo img {
         height: 40px;
         width: auto;
     }
 
-    .our-service h2{
+    .our-service h2 {
         text-align: left;
     }
 
-    .our-service p{
+    .our-service p {
         margin-top: 10px;
         font-size: 16px;
         width: 100%;
@@ -1129,61 +1139,61 @@ button:active {
         align-items: center;
     }
 
-    .e-card1{
+    .e-card1 {
         margin: 20px 0 0 0;
     }
 
-    .e-card2{
+    .e-card2 {
         margin: 20px 0 0 0;
     }
 
-    .e-card3{
+    .e-card3 {
         margin: 20px 0 0 0;
     }
 
-    .e-card4{
+    .e-card4 {
         margin: 20px 0 0 0;
     }
 
-    .e-card5{
+    .e-card5 {
         margin: 20px 0 0 0;
     }
 
-    .e-card6{
+    .e-card6 {
         margin: 20px 0 0 0;
     }
 
-    .e-card7{
+    .e-card7 {
         margin: 20px 0 0 0;
     }
 
-    .e-card8{
+    .e-card8 {
         margin: 20px 0 0 0;
     }
 
-    .e-card9{
+    .e-card9 {
         margin: 20px 0 0 0;
     }
 
-    .e-card10{
+    .e-card10 {
         margin: 20px 0 0 0;
     }
 
-    .e-card11{
+    .e-card11 {
         margin: 20px 0 0 0;
     }
 
-    .e-card12{
+    .e-card12 {
         margin: 20px 0 0 0;
     }
 
-    .read-more{
+    .read-more {
         margin-top: 70px;
         margin-left: 3px;
         font-size: 16px !important;
     }
 
-    .why-choose{
+    .why-choose {
         width: 100%;
         background-position: center;
         background-size: cover;
@@ -1191,13 +1201,13 @@ button:active {
         flex-direction: column;
     }
 
-    .why-choose h2{
+    .why-choose h2 {
         padding-left: 0;
         margin-top: 60px;
         margin-bottom: 10px;
     }
 
-    .why-choose p{
+    .why-choose p {
         width: auto;
     }
 
@@ -1209,38 +1219,38 @@ button:active {
         align-items: center;
     }
 
-    .why-choose-data1{
+    .why-choose-data1 {
         width: 320px;
         margin-left: 0px;
         margin-bottom: 10px;
     }
 
-    .why-choose-data2{
+    .why-choose-data2 {
         width: 320px;
     }
 
-    .why-choose-data3{
+    .why-choose-data3 {
         margin-top: 10px;
         width: 320px;
         margin-left: 0px;
     }
 
-    .why-choose-data4{
+    .why-choose-data4 {
         margin-top: 10px;
         width: 320px;
         margin-left: 0px;
     }
 
-    .our-approach{
+    .our-approach {
         width: 100%;
         padding: 10px 20px;
     }
 
-    .our-approach h3{
+    .our-approach h3 {
         padding-left: 20px;
     }
 
-    .circle-shape{
+    .circle-shape {
         height: 50px;
         width: 50px;
         margin-left: 264px;
@@ -1248,52 +1258,52 @@ button:active {
         backdrop-filter: blur(3px);
     }
 
-    .our-approach .square-img{
+    .our-approach .square-img {
         margin-top: -170px;
         height: 100px;
         width: auto;
     }
 
-    .our-approach-data1{
+    .our-approach-data1 {
         margin-left: 20px;
         width: 100%;
     }
 
-    .our-featured-work{
+    .our-featured-work {
         width: 100%;
         padding: 10px 20px;
     }
 
-    .featured-work-data{
+    .featured-work-data {
         padding-top: 20px;
     }
 
-    .featured-work-data p{
+    .featured-work-data p {
         text-align: left;
         width: auto;
         padding-top: 10px;
     }
 
-    .featured-data{
+    .featured-data {
         height: auto;
         width: auto;
     }
 
-    .choose-us{
+    .choose-us {
         padding: 20px;
     }
 
-    .choose-us h2{
-        padding-left: 0 ;
+    .choose-us h2 {
+        padding-left: 0;
         margin-bottom: 10px;
     }
 
-    .choose-us p{
+    .choose-us p {
         padding-left: 0;
         width: auto;
     }
 
-    .choose-us-bg{
+    .choose-us-bg {
         margin-top: -142px;
         width: 100%;
         padding: 180px 0px;
@@ -1302,18 +1312,18 @@ button:active {
         background-repeat: no-repeat;
     }
 
-    .choose-us button{
+    .choose-us .button {
         float: left;
         padding: 10px 15px;
     }
 
-    .choose-us .year-title{
+    .choose-us .year-title {
         text-align: center;
         font-size: 18px;
         width: 100%;
     }
 
-    .report-img{
+    .report-img {
         height: 180px;
         width: auto;
         padding-left: 50px;
@@ -1329,11 +1339,12 @@ button:active {
         margin-left: 146px;
     }
 
-    .report-img2{
+    .report-img2 {
         height: 160px;
         padding-left: 90px;
         margin-top: 10px;
     }
+
 
     .testimonials-section {
         width: 100%;
@@ -1355,7 +1366,7 @@ button:active {
         align-items: center;
     }
 
-    .contact-section h2{
+    .contact-section h2 {
         width: auto;
     }
 
@@ -1364,11 +1375,11 @@ button:active {
         margin-top: 50px;
     }
 
-    .main-input{
+    .main-input {
         width: auto;
     }
 
-    .footer{
+    .footer {
         border-radius: 0px !important;
     }
 }
@@ -1379,7 +1390,7 @@ button:active {
 
 /* ----------------- Footer Code Start ---------------*/
 
-.footer{
+.footer {
     margin-top: 0px;
     padding: 50px 0;
     background-color: #68269C;
@@ -1392,7 +1403,7 @@ button:active {
 
 /* ----------------- Service Page Code Start ---------------*/
 
-.service-container{
+.service-container {
     max-width: 100% !important;
     margin-top: -72px;
 }
@@ -1400,25 +1411,410 @@ button:active {
 .service-hero-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-image: url(./assets/Rectangle\ 149.png);
+    height: 80vh;
+    background-image: url(./assets/about-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 36px;
 }
 
-.service-hero-section .left-content{    
+.service-hero-section .left-content {
     position: absolute;
     top: 180px;
     left: -20px;
     width: auto;
-    background-color: #dfd5a49f;
+    background-color: rgb(187 72 174 / 39%);
     backdrop-filter: blur(5px);
     border-radius: 20px;
-    padding: 25px 30px 25px 250px;
+    padding: 20px 30px 20px 200px;
 }
 
 .service-hero-section .page-title {
+    font-size: 34px;
+    top: 35%;
+    left: 10%;
+    color: white;
+    font-family: kodchasan;
+    font-weight: 600;
+}
+
+.service-hero-section-data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.service-section-data-title {
+    font-size: 26px;
+    font-family: kodchasan;
+    font-weight: 500;
+    color: #000;
+}
+
+.service-section-data-content {
+    font-size: 16px;
+    font-family: kodchasan;
+    font-weight: 400;
+    color: #000;
+    width: 100%;
+    text-align: justify;
+}
+
+.introduction {
+    padding: 0px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #464646;
+}
+
+.introduction .introduction-img {
+    height: 140px;
+    width: auto;
+    margin-top: -70px;
+}
+
+.introduction .introduction-data {
+    padding: 40px;
+}
+
+.introduction-data h3 {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.introduction-data p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+
+.services-section {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.service-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+    height: 350px;
+    width: auto;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+.service-data h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.service-data p {
+    font-size: 14px;
+    width: auto;
+    color: #000;
+}
+
+.service-data:hover {
+    background: rgb(180, 86, 56);
+    background: linear-gradient(149deg, rgba(180, 86, 56, 1) 0%, rgba(137, 50, 193, 1) 35%, rgba(162, 18, 156, 1) 100%);
+}
+
+.service-data:hover h2,
+.service-data:hover p {
+    color: white;
+}
+
+.we-are-section {
+    padding: 60px;
+    background-color: #451852;
+}
+
+.we-are-data h3 {
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.we-are-data h4 {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.we-are-data p {
+    color: white;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.we-are-section .we-are-image {
+    height: 140px;
+    width: auto;
+    float: right;
+    margin-top: -150px;
+}
+
+.we-are-section .button {
+    margin-top: 120px;
+}
+
+.faq-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-title {
+    font-size: 28px;
+    padding: 15px 250px;
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+    border-radius: 80px;
+    font-weight: 600;
+}
+
+.faq-img {
+    margin-top: -110px;
+    margin-left: -30px;
+    height: 140px;
+    width: auto;
+    position: absolute;
+}
+
+.faq-container {
+    margin: 50px auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 28px;
+    color: #777676;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 10px;
+}
+
+.question span {
+    font-size: 32px;
+    padding-left: 50px;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-item.active .answer {
+    display: block;
+}
+
+.toggle-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-item.active .toggle-icon {
+    transform: rotate(45deg);
+}
+
+@media (max-width:499px) {
+
+    .service-container {
+        width: 100%;
+    }
+
+    .service-hero-section {
+        background-image: url(./assets/about-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .service-hero-section .left-content {
+        top: 130px;
+        padding: 25px 30px 25px 80px;
+    }
+.col-sm-3 .button{
+    margin-bottom: 20px;
+    
+}
+    .introduction-img{
+        height: 30px;
+        width: 30px;
+        align-items: center;
+    }
+
+    .introduction .introduction-data {
+        
+        padding: 0; /* Remove any unwanted padding */
+    }
+
+    .introduction .introduction-data p {
+        font-size: 14px; /* Adjusted font size for paragraph */
+    }
+    .services-section {
+        padding: 20px;
+    }
+
+    .service-data {
+        padding: 12px;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .service-data  .col-sm-4  {
+        margin-left: 0; /* Reset the margin */
+        padding-left: 13px; /* Add padding instead to create space on the left */
+        font-size: 22px;
+        
+       
+    }
+
+    .service-data p {
+        font-size: 14px;
+        margin-bottom: 8px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .service-data:hover {
+        background: rgb(180, 86, 56);
+        background: linear-gradient(149deg, rgba(180, 86, 56, 1) 0%, rgba(137, 50, 193, 1) 35%, rgba(162, 18, 156, 1) 100%);
+    }
+
+    .service-data:hover h2,
+    .service-data:hover p {
+        color: white;
+    }
+    .we-are-section {
+        padding: 20px;
+    }
+
+    .we-are-data {
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .we-are-section .button {
+        margin: 8px; /* Center align the entire button */
+        text-align: center;
+        display: inline-block; /* Display the button as an inline block */
+        padding: 10px 20px; /* Adjust padding for a smaller button */
+        border-radius: 8px; /* Optional: Add rounded corners */
+    }
+
+    .we-are-section .we-are-image {
+        float: none;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .faq-section-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq-title {
+        padding: 10px;
+        font-size: 22px;
+        box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+        border-radius: 40px;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+
+    .faq-img {
+      
+        
+            margin-top: -60px;
+            margin-left: -60px;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+    }
+
+    .question {
+        font-size: 20px;
+        padding: 8px; /* Adjust padding for smaller size */
+    }
+
+    .question span {
+        font-size: 24px; /* Adjust icon size for smaller size */
+        padding-left: 20px; /* Adjust padding for smaller size */
+    }
+}
+
+/* ----------------- Service Page Code End ---------------*/
+
+
+/* -------------------- About Us Page Code Start ------------------*/
+
+.about-container {
+    max-width: 100% !important;
+    margin-top: -72px;
+}
+
+.about-hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-image: url(./assets/about-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 36px;
+}
+
+.about-hero-section .left-content {
+    position: absolute;
+    top: 180px;
+    left: -20px;
+    width: auto;
+    background-color: rgb(187 72 174 / 39%);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 25px 30px 25px 160px;
+}
+
+.about-hero-section .page-title {
     font-size: 32px;
     top: 35%;
     left: 10%;
@@ -1427,60 +1823,453 @@ button:active {
     font-weight: 500;
 }
 
-.our-service-section{
+.about-hero-section-data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.about-section-data-title {
+    font-size: 26px;
+    font-family: kodchasan;
+    font-weight: 500;
+    color: #000;
+}
+
+.about-section-data-content {
+    font-size: 16px;
+    font-family: kodchasan;
+    font-weight: 400;
+    color: #000;
+    width: 100%;
+    text-align: justify;
+}
+
+.who-are-we-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+}
+
+.who-are-we-section-title {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+}
+
+.who-are-we-title {
+    margin-left: 120px;
+    font-size: 32px;
+    font-family: kodchasan;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+.who-are-we-img {
+    margin-top: -50px;
+    height: 160px;
     width: auto;
-    padding: 20px 20px;
+    position: absolute;
+    right: 25px;
+}
+
+.who-are-we-section-data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.who-are-we-section-data .who-are-image {
+    height: 600px;
+    width: auto;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: -78px;
+}
+
+.who-are-we-data-section {
+    width: 100%;
+    padding: 50px;
+}
+
+.who-are-we-data h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: kodchasan;
+    font-weight: 500;
+}
+
+.who-are-we-data p {
+    font-size: 14px;
+    text-align: justify;
+    width: 90%;
+}
+
+.mission-vission-value-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #C7C7C7;
+    border-radius: 30px;
+}
+
+.mission-data h2 {
+    font-size: 24px;
+    font-family: kodchasan;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.mission-data ul li {
+    font-size: 14px;
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.vision-data h2 {
+    font-size: 24px;
+    font-family: kodchasan;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.vision-data ul li {
+    font-size: 14px;
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.card-in-hand-img {
+    height: 600px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.value-data h2 {
+    font-size: 24px;
+    font-family: kodchasan;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.value-data ul li {
+    font-size: 14px;
+    text-align: justify;
+    width: 90%;
+}
+
+.card-data {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.our-team-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-title {
+    font-size: 28px;
+    padding: 15px 250px;
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+    border-radius: 80px;
+}
+
+.our-team-data {
+    width: 100%;
+    padding: 50px;
+}
+
+.our-team-img {
+    margin-top: -110px;
+    margin-left: -30px;
+    height: 140px;
+    width: auto;
+    position: absolute;
+}
+
+.our-teams {
+    padding: 50px;
+}
+
+.members {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.our-service-section .our-service-content{
-    width: auto;
-    background-color: #464646;
-    border-radius: 36px;
-    padding: 100px 20px;
+.member-img {
+    height: 300px;
+    width: 260px;
+    border: 1px solid #000;
 }
 
-.our-service-content p{
-    font-family: kodchasan;
-    font-size: 45px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 1.3em;
-    color: white;
+.members-data {
+    padding-top: 15px;
+    text-align: center;
 }
 
-.our-service-content .service-img{
-    position: absolute;
-    height: 260px;
-    width: auto;
-    margin-top: -180px;
-    margin-left: 480px;
-}
-
-.service-content{
+.contact-us-section {
+    padding: 50px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    /*background: linear-gradient(to right,#FFB31E, #410B61);*/
+    background: linear-gradient(to right, #410B61, #FFB31E);
 }
 
-.service-names{
-    padding: 10px 70px;
+.contact-us-section-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    width: 60%;
+    text-align: center;
 }
 
-.service-names ol li{
-    width: 82%;
-    line-height: 1.8em;
+.contact-us-section .button {
+    font-weight: 700;
+    font-family: kodchasan;
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 16px !important;
+    background: #FFEE50;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 50px;
 }
 
-/* ----------------- Service Page Code Start ---------------*/
+.contact-us-section .button>svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+    transform: rotate(-45deg);
+}
+
+.contact-us-section .button:hover svg {
+    transform: translateX(5px);
+}
+
+.contact-us-section .button:active {
+    transform: scale(0.95);
+}
+
+@media (max-width:499px) {
+
+    .about-container {
+        width: 100%;
+    }
+
+    .about-hero-section {
+        background-image: url(./assets/about-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-hero-section .left-content {
+        top: 130px;
+        padding: 25px 30px 25px 80px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    
+    .col-sm-4 h3 {
+        margin-left: 5px;
+        font-weight: bold;
+
+    }
+
+    .about-section-data-content {
+        margin-left: -13px;
+        margin-top: 15px;
+
+    }
+
+    .col-sm-3 {
+        float: left;
+    }
+
+    .button {
+        margin-left: 0;
+        margin-right: 40px;
+    }
+
+    .who-are-we-title {
+        margin-left: 10px;
+        margin-right: 10px;
+     
+        text-align: left;
+        height: 15px;
+        font-size: 24px;
+    }
+    
+    .who-are-we-img {
+
+        margin-left: 190px;
+        
+        height: 45px;
+        width: 45px;
+        position: relative;
+        right: 0;
+    }
+
+    .who-are-we-section-data {
+        flex-direction: column;
+        align-items: left;
+    }
+.who-are-we-section{
+    margin-top: -80px;
+}
+    .who-are-we-section-data .who-are-image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+        width: 100%;
+        border-radius: 0;
+        position: relative;
+    }
+
+    .who-are-we-data-section {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .who-are-we-data {
+        text-align: left;
+    }
+
+    .who-are-we-data h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .who-are-we-data p {
+        font-size: 12px;
+        text-align: left;
+        width: 100%;
+    }
+
+   
+    .who-are-we-data-section .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+   
+    .who-are-we-data-section .col-sm-6 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .who-are-we-data-section .col-sm-6 p{
+        font-size: 14px;
+        
+    }
+    .mission-vission-value-section {
+        flex-direction: column;
+       
+    }
+
+    .col-sm-4 {
+        order: -1; 
+        margin-bottom: 20px;
+        background-color: transparent; 
+    }
+
+    .card-in-hand-img {
+        height: auto;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .mission-vission-data {
+        background-color: #C7C7C7;
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 10px; 
+    }
+
+    .value-data, .vision-data, .mission-data {
+        background-color: #C7C7C7;
+        border-radius: 15px;
+ 
+        margin-bottom: 10px; 
+    }
+
+    .card-data {
+        font-weight: bold;
+        margin-top: 20px; /* Add some space between last section and card data */
+        text-align: center; /* Center the text */
+    }
+
+    
+
+    .team-title {
+        font-size: 22px;
+        padding: 10px;
+        box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+        border-radius: 40px;
+        margin-left: 10px; /* Adjusted margin to create space between text and image */
+    }
+
+    .our-team-img {
+        height: 40px !important; /* Fixed height */
+        width: 40px !important; /* Fixed width */
+        
+            margin-top: -48px;
+            
+    }
+   
+
+    .contact-us-section-title {
+        font-size: 22px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .contact-us-section .button {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .contact-us-section .button>svg {
+        width: 24px;
+    }
+
+}
+
+
+/* --------------------- About Us Page Code End--------------------*/
 
 
 /* ----------------- Contact Page Code Start ---------------*/
 
-.contact-container{
+.contact-container {
     max-width: 100% !important;
     margin-top: -72px;
 }
@@ -1495,7 +2284,7 @@ button:active {
     background-size: cover;
 }
 
-.contact-hero-section .left-content{
+.contact-hero-section .left-content {
     position: absolute;
     top: 180px;
     left: -20px;
@@ -1515,7 +2304,7 @@ button:active {
     font-weight: 500;
 }
 
-.contact-hero-section .contact-content{
+.contact-hero-section .contact-content {
     position: absolute;
     top: 60%;
     left: 60%;
@@ -1525,14 +2314,14 @@ button:active {
     padding: 20px 20px;
 }
 
-.contact-content p{
+.contact-content p {
     font-family: kodchasan;
     font-family: 16px;
     color: black;
     width: auto;
 }
 
-.contact-content h2{
+.contact-content h2 {
     margin-top: 10px;
     text-align: right;
     font-family: kodchasan;
@@ -1541,14 +2330,14 @@ button:active {
     color: black;
 }
 
-.contact-data{
+.contact-data {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: end;
 }
 
-.contact-content a{
+.contact-content a {
     text-decoration: none;
     font-size: 16px;
     font-family: kodchasan;
@@ -1566,29 +2355,29 @@ button:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .form-container .contact-form {
+.form-container .contact-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  
-  .form-container .form-group {
+}
+
+.form-container .form-group {
     display: flex;
     flex-direction: column;
     gap: 2px;
-  }
-  
-  .form-container .form-group label {
+}
+
+.form-container .form-group label {
     display: block;
     margin-bottom: 5px;
     color: black;
     font-weight: 600;
     font-size: 12px;
-  }
-  
-  .form-container .form-group input {
+}
+
+.form-container .form-group input {
     width: 100%;
     padding: 12px 16px;
     border-radius: 8px;
@@ -1596,9 +2385,9 @@ button:active {
     font-family: inherit;
     background-color: transparent;
     border: 1px solid #414141;
-  }
-  
-  .form-container .form-group textarea {
+}
+
+.form-container .form-group textarea {
     width: 100%;
     padding: 12px 16px;
     border-radius: 8px;
@@ -1608,13 +2397,13 @@ button:active {
     border: 1px solid #414141;
     background-color: transparent;
     font-family: inherit;
-  }
-  
-  .form-container .form-group input::placeholder {
+}
+
+.form-container .form-group input::placeholder {
     opacity: 0.5;
-  }
-  
-  .form-container .form-submit-btn {
+}
+
+.form-container .form-submit-btn {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -1631,11 +2420,11 @@ button:active {
     margin-top: 8px;
     cursor: pointer;
     border-radius: 6px;
-  }
-    
+}
+
 /* -- Form End --*/
 
-button {
+.button {
     font-weight: 700;
     font-family: kodchasan;
     transition: all .2s;
@@ -1646,50 +2435,51 @@ button {
     display: flex;
     align-items: center;
     font-size: 15px;
-    }
+}
 
-button > svg {
+.button>svg {
     width: 34px;
     margin-left: 10px;
     transition: transform .3s ease-in-out;
+    transform: rotate(-45deg);
 }
 
-button:hover svg {
+.button:hover svg {
     transform: translateX(5px);
 }
 
-button:active {
+.button:active {
     transform: scale(0.95);
 }
 
-.company-map{
+.company-map {
     width: 100%;
 }
 
-.company-map .map{
+.company-map .map {
     width: 100%;
     height: 500px;
     margin-bottom: -6px;
 }
 
-@media (max-width:499px){
+@media (max-width:499px) {
 
-    .contact-container{
+    .contact-container {
         width: 100%;
     }
 
-    .contact-hero-section{
+    .contact-hero-section {
         background-image: url(./assets/Rectangle\ 150.png);
         background-size: cover;
         background-position: center;
     }
 
-    .contact-hero-section .left-content{
+    .contact-hero-section .left-content {
         top: 130px;
         padding: 25px 30px 25px 100px;
     }
 
-    .contact-hero-section .contact-content{
+    .contact-hero-section .contact-content {
         left: 0;
         width: auto;
         margin-left: 10px;
@@ -1697,11 +2487,11 @@ button:active {
         border-radius: 20px;
     }
 
-    .contact-content p{
+    .contact-content p {
         font-size: 14px;
     }
 
-    .contact-content h2{
+    .contact-content h2 {
         text-align: center;
     }
 
@@ -1709,7 +2499,7 @@ button:active {
         align-items: center;
     }
 
-    .form-container{
+    .form-container {
         width: auto;
     }
 
@@ -1719,11 +2509,10 @@ button:active {
         z-index: -1;
     }
 
-    .company-map .map{
+    .company-map .map {
         height: 850px;
     }
 }
 
 
 /* ----------------- Contact Page Code End ---------------*/
-  
